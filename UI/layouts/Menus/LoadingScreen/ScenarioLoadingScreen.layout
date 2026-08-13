@@ -1,0 +1,55 @@
+FrameWidgetClass {
+ {
+  OverlayWidgetClass "{5DFF03E4AD9D1E88}" {
+   Prefab "{5DFF03E4AD9D1E88}"
+   {
+    ScaleWidgetClass "{5CFCF5E894AE6629}" {
+     Prefab "{5CFCF5E894AE6629}"
+     {
+      ImageWidgetClass "{5CFCF5E894AE6628}" {
+       Prefab "{5CFCF5E894AE6628}"
+       Texture "{41F55B9C8E4F0E3A}Images/loadscreen].edds"
+      }
+     }
+    }
+   }
+  }
+  FrameWidgetClass "{5E04A017BD489B2A}" {
+   Prefab "{5E04A017BD489B2A}"
+   "Is Enabled" 0
+   "Is Visible" 0
+   {
+    OverlayWidgetClass "{5DFF03E4AD9D1E85}" {
+     Prefab "{5DFF03E4AD9D1E85}"
+     "Is Visible" 0
+     {
+      ImageWidgetClass "{5DFF03E4AD9D1EF2}" {
+       Prefab "{5DFF03E4AD9D1EF2}"
+       "Is Enabled" 0
+       "Is Visible" 0
+      }
+      FrameWidgetClass "{5DFF03E4AD9D1EF7}" {
+       Prefab "{5DFF03E4AD9D1EF7}"
+       "Is Visible" 0
+      }
+      VerticalLayoutWidgetClass "{5DFF03E4AD9D1EE1}" {
+       Prefab "{5DFF03E4AD9D1EE1}"
+       {
+        TextWidgetClass "{5DFF03E4AD9D1EE5}" {
+         Prefab "{5DFF03E4AD9D1EE5}"
+         "Is Enabled" 0
+         "Is Visible" 0
+        }
+        RichTextWidgetClass "{5DFF03E4AD9D1ED9}" {
+         Prefab "{5DFF03E4AD9D1ED9}"
+         "Is Enabled" 0
+         "Is Visible" 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

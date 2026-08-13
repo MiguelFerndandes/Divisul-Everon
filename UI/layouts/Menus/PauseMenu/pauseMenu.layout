@@ -1,0 +1,24 @@
+FrameWidgetClass {
+ {
+  OverlayWidgetClass "{5DB8B556919FE5F2}" {
+   Prefab "{5DB8B556919FE5F2}"
+   {
+    VerticalLayoutWidgetClass "{69A8C203FA1A9FAF}" {
+     Name "VerticalLayout0"
+     Slot OverlayWidgetSlot "{69FC3AF8CC7FDA50}" {
+     }
+    }
+    VerticalLayoutWidgetClass "{5DB8B556919FE5EE}" {
+     Prefab "{5DB8B556919FE5EE}"
+     {
+      ImageWidgetClass "{5DB8B556919FE5EF}" {
+       Prefab "{5DB8B556919FE5EF}"
+       Texture "{5D71F48AB75C35AC}Images/Divisul__2_-removebg-preview.edds"
+       Size 150 120
+      }
+     }
+    }
+   }
+  }
+ }
+}

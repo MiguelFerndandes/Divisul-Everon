@@ -1,0 +1,29 @@
+FrameWidgetClass {
+ {
+  FrameWidgetClass "{5D66B544E2E236DE}" {
+   Prefab "{5D66B544E2E236DE}"
+   {
+    ImageWidgetClass "{69A91CCA63224172}" {
+     Name "Image0"
+     Slot FrameWidgetSlot "{69A91CCA6322411E}" {
+      Anchor 0 0 1 1
+      PositionX 0
+      OffsetLeft 0
+      PositionY 0
+      OffsetTop 0
+      SizeX -1.31
+      OffsetRight 1.31
+      SizeY 0
+      OffsetBottom 0
+     }
+     Texture "{D3D158B7A74CA12E}Images/imagemwidget2.edds"
+     Size 1920 1200
+    }
+    MapWidgetClass "{000000009C582FB6}" {
+     Prefab "{000000009C582FB6}"
+     "Is Visible" 0
+    }
+   }
+  }
+ }
+}
