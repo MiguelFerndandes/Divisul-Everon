@@ -1,0 +1,110 @@
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_AT
+   }
+  }
+  coords 7573.25 147.658 4641.993
+  angles 2.167 105.612 -7.708
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_AT
+   }
+  }
+  coords 6179.134 84.214 5815.814
+  angles -1.015 124.536 1.474
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_AT
+   }
+  }
+  coords 5263.542 79.23 6383.529
+  angles 2.896 74.842 3.842
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+   }
+  }
+  coords 4629.925 119.48 7949.249
+  angles 6.195 5.596 -8.279
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_AT
+   }
+  }
+  coords 4843.604 39.403 9022.086
+  angles -3.963 59.296 -4.907
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_AT
+   }
+  }
+  coords 4550.964 18.071 9849.628
+  angles -1.275 7.991 -3.789
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+   }
+  }
+  coords 5363.536 18.265 9947.444
+  angles 11.02 -8.245 8.125
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+   }
+  }
+  coords 8136.284 221.377 4138.957
+  angles -5.332 157.76 -3.596
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+   }
+  }
+  coords 6805.248 71.358 4837.093
+  angles 2.985 136.769 5.765
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+   }
+  }
+  coords 6839.793 27.198 3833.539
+  angles -15.434 -128.553 9.847
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+   }
+  }
+  coords 5704.197 43.243 4374.793
+  angles -17.443 118.831 -0.68
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_AT
+   }
+  }
+  coords 3988.254 17.75 3702.061
+  angles -8.342 -32.252 -11.362
+ }
+}

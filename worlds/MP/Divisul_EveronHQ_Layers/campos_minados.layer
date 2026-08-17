@@ -1,0 +1,584 @@
+$grp GenericEntity : "{1BAE4DF554AED35C}PrefabsEditable/EffectsModules/Mine/EffectModule_MineField_Medium_USSR.et" {
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 28
+     m_iMaxProjectilesEachBarrage 30
+    }
+   }
+  }
+  coords 5367.835 19.588 9967.854
+  angles -0.86 0.74 -2.695
+  {
+   GenericEntity {
+    ID "616C96D8967A1736"
+    coords 0 1.289 0
+    angles 1.755 11.34 0.352
+   }
+  }
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 28
+     m_iMaxProjectilesEachBarrage 30
+    }
+   }
+  }
+  coords 4568.155 17.946 9875.722
+  angles -1.778 6.693 -0.209
+  {
+   GenericEntity {
+    ID "616C96D8967A1736"
+    coords 0 1.289 0
+    angles 1.755 11.34 0.352
+   }
+  }
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 28
+     m_iMaxProjectilesEachBarrage 30
+    }
+   }
+  }
+  coords 4861.061 41.11 9002.453
+  angles -2.355 23.507 0.927
+  {
+   GenericEntity {
+    ID "616C96D8967A1736"
+    coords 0 1.289 0
+    angles 1.755 11.34 0.352
+   }
+  }
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 28
+     m_iMaxProjectilesEachBarrage 30
+    }
+   }
+  }
+  coords 5303.071 80.768 6387.174
+  angles 0.415 -62.368 -0.793
+  {
+   GenericEntity {
+    ID "616C96D8967A1736"
+    coords 0 1.289 0
+    angles 1.755 11.34 0.352
+   }
+  }
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 28
+     m_iMaxProjectilesEachBarrage 30
+    }
+   }
+  }
+  coords 5423.204 80.127 5733.477
+  angles 1.971 36.458 0.344
+  {
+   GenericEntity {
+    ID "616C96D8967A1736"
+    coords 0 1.289 0
+    angles 1.755 11.34 0.352
+   }
+  }
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 28
+     m_iMaxProjectilesEachBarrage 30
+    }
+   }
+  }
+  coords 6190.64 84.885 5781.281
+  angles 0.087 5.586 -0.891
+  {
+   GenericEntity {
+    ID "616C96D8967A1736"
+    coords 0 1.289 0
+    angles 1.755 11.34 0.352
+   }
+  }
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 28
+     m_iMaxProjectilesEachBarrage 30
+    }
+   }
+  }
+  coords 6826.572 72.963 4811.481
+  angles -0.532 48.017 -1.929
+  {
+   GenericEntity {
+    ID "616C96D8967A1736"
+    coords 0 1.289 0
+    angles 1.755 11.34 0.352
+   }
+  }
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 28
+     m_iMaxProjectilesEachBarrage 30
+    }
+   }
+  }
+  coords 7571.476 152.935 4605.941
+  angles -6.702 5.135 -5.051
+  {
+   GenericEntity {
+    ID "616C96D8967A1736"
+    coords 0 1.289 0
+    angles 1.755 11.34 0.352
+   }
+  }
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 28
+     m_iMaxProjectilesEachBarrage 30
+    }
+   }
+  }
+  coords 8095.676 223.227 4159.427
+  angles -0.817 24.201 -0.367
+  {
+   GenericEntity {
+    ID "616C96D8967A1736"
+    coords 0 1.289 0
+    angles 1.755 11.34 0.352
+   }
+  }
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 28
+     m_iMaxProjectilesEachBarrage 30
+    }
+   }
+  }
+  coords 6812.769 19.855 3807.339
+  angles -11.311 -37.039 -0.318
+  {
+   GenericEntity {
+    ID "616C96D8967A1736"
+    coords 0 1.289 0
+    angles 1.755 11.34 0.352
+   }
+  }
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 28
+     m_iMaxProjectilesEachBarrage 30
+    }
+   }
+  }
+  coords 4631.725 120.268 7971.681
+  angles 0.229 -20.007 -1.988
+  {
+   GenericEntity {
+    ID "616C96D8967A1736"
+    coords 0 1.289 0
+    angles 1.755 11.34 0.352
+   }
+  }
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 28
+     m_iMaxProjectilesEachBarrage 30
+    }
+   }
+  }
+  coords 4708.903 61.823 6293.733
+  angles 0.175 -37.043 -1.254
+  {
+   GenericEntity {
+    ID "616C96D8967A1736"
+    coords 0 1.289 0
+    angles 1.755 11.34 0.352
+   }
+  }
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 28
+     m_iMaxProjectilesEachBarrage 30
+    }
+   }
+  }
+  coords 3277.462 114.966 5132.398
+  angles 1.191 25.194 -0.429
+  {
+   GenericEntity {
+    ID "616C96D8967A1736"
+    coords 0 1.289 0
+    angles 1.755 11.34 0.352
+   }
+  }
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 28
+     m_iMaxProjectilesEachBarrage 30
+    }
+   }
+  }
+  coords 1620.858 70.312 5746.623
+  angles 0.628 31.256 -2.758
+  {
+   GenericEntity {
+    ID "616C96D8967A1736"
+    coords 0 1.289 0
+    angles 1.755 11.34 0.352
+   }
+  }
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 28
+     m_iMaxProjectilesEachBarrage 30
+    }
+   }
+  }
+  coords 3387.969 36.352 6982.236
+  angles -2.072 50.085 -5.251
+  {
+   GenericEntity {
+    ID "616C96D8967A1736"
+    coords 0 1.289 0
+    angles 1.755 11.34 0.352
+   }
+  }
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 28
+     m_iMaxProjectilesEachBarrage 30
+    }
+   }
+  }
+  coords 6450.801 160.352 7111.24
+  angles -1.865 61.496 4.06
+  {
+   GenericEntity {
+    ID "616C96D8967A1736"
+    coords 0 1.289 0
+    angles 1.755 11.34 0.352
+   }
+  }
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 28
+     m_iMaxProjectilesEachBarrage 30
+    }
+   }
+  }
+  coords 5746.327 30.594 4356.675
+  angles -10.939 76.231 -0.051
+  {
+   GenericEntity {
+    ID "616C96D8967A1736"
+    coords 0 1.289 0
+    angles 1.755 11.34 0.352
+   }
+  }
+ }
+}
+$grp GenericEntity : "{34EB1F16E01716A4}PrefabsEditable/EffectsModules/Mine/EffectModule_MineField_AP_Medium_USSR.et" {
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 7282.143 143.074 2147.256
+  angles -6.963 48.318 -10.359
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 6674.356 9.736 3051.903
+  angles -2.17 -53.924 -1.58
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 7469.011 169.324 4183.067
+  angles -3.3 12.468 -1.644
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 7604.902 82.089 5381.26
+  angles -11.497 61.43 10.108
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 7091.478 108.002 5871.271
+  angles -0.362 68.622 3.981
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 6898.426 118.232 5964.681
+  angles 2.458 54.735 8.068
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 5571.93 111.048 6264.209
+  angles 0.32 49.045 -30.568
+  {
+   GenericEntity {
+    ID "616C96D8967A1736"
+    coords -15.96 -6.8 0.976
+    angles 20.406 -32.414 20.754
+   }
+  }
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 5067.815 55.9 5376.144
+  angles 1.117 38.607 -1.399
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 5049.836 6.981 3906.455
+  angles 8.097 39.676 5.525
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 5000.537 9.29 3937.02
+  angles 26.406 24.767 0.277
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 3824.395 70.977 6880.076
+  angles -6.388 -47.003 -2.294
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 4015.635 35.442 8546.683
+  angles -16.005 -119.32 -0.01
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 3972.033 31.392 8325.343
+  angles -4.627 -24.692 7.001
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 4340.449 4.814 9590.656
+  angles -9.738 -55.07 -4.606
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 6309.889 10.894 9721.707
+  angles 12.914 27.719 3.765
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 6330.8 64.109 8526.554
+  angles -10.261 -27.219 3.265
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 7552.034 30.245 8193.785
+  angles 0.015 43.849 29.405
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 5014.665 26.523 10794.585
+  angles -1.546 97.345 -2.003
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 5133.863 175.5 6967.686
+  angles 0 39.566 0
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 5183.542 167.976 7157.38
+  angles -0.255 16.536 0.858
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 2411.892 110.02 5467.301
+  angles 6.147 7.466 7.935
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 1116.354 9.861 6028.604
+  angles -12.528 5.176 -17.257
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 1023.62 6.6 5974.333
+  angles -15.485 56.4 -10.436
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 3354.274 8.759 3587.538
+  angles 2.549 177.188 -2.809
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    }
+   }
+  }
+  coords 9332.518 64.609 2108.064
+  angles -4.003 150.301 14.313
+ }
+}

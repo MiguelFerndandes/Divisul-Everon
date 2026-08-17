@@ -1,0 +1,387 @@
+$grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et" {
+ {
+  components {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+     }
+    }
+   }
+  }
+  coords 7501.667 165.625 4301.021
+  angles 2.813 102.468 -0.294
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "621EB97024DABAFF"
+    coords -0.022 0.031 0.26
+    angles 0.833 -0.005 -0.328
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType SQUAD_RIFLE
+     }
+    }
+    coords -39.35 -0.681 28.617
+    angles -1.262 175.677 2.522
+   }
+  }
+ }
+ {
+  components {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+     }
+    }
+   }
+  }
+  coords 4975.423 2.598 3846.245
+  angles -1.245 -55.564 0.232
+  {
+   GenericEntity {
+    ID "622086ACB9D1E3B2"
+    coords 16.923 0.974 60.539
+    angles 1.242 -0.759 -0.248
+   }
+   GenericEntity {
+    ID "622086ACBB849B49"
+    coords 13.953 -0.485 -6.01
+    angles 1.245 -0.005 -0.232
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "621EB97024DABAFF"
+    coords -0.001 0 -0.004
+    angles 0 0.049 0
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType SQUAD_RIFLE
+     }
+    }
+    coords 66.038 1.75 33.2
+    angles -2.14 97.59 7.685
+   }
+  }
+ }
+ {
+  components {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+     }
+    }
+   }
+  }
+  coords 5135.246 58.664 5396.771
+  angles 1.788 -177.046 0.092
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "621EB97024DABAFF"
+    coords -0.99 3.093 -3.516
+    angles -2.743 -0.11 2.3
+   }
+   GenericEntity : "{8E49E48C2BD0BFE3}Prefabs/Compositions/Slotted/SlotFlatSmall/AmmoStorage_S_FIA_01.et" {
+    coords -18.563 -0.484 -5.463
+    angles 2.68 33.751 0.533
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType SQUAD_RIFLE
+     }
+    }
+    coords 20.524 -2.579 -47.869
+    angles 1.837 -89.611 -0.787
+   }
+   GenericEntity : "{AB1A97B1BAE8C395}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_01.et" {
+    coords -1.657 -0.928 37.785
+    angles 4.69 -174.404 -1.104
+   }
+  }
+ }
+ {
+  components {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+     }
+    }
+   }
+  }
+  coords 6973.638 121.168 6067.882
+  angles 0.586 -126.13 -3.747
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "621EB97024DABAFF"
+    coords -2.388 0.188 -6.245
+    angles -0.723 0.031 0.525
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    coords -31.266 0.129 -2.447
+    angles -2.278 0.672 -1.658
+   }
+  }
+ }
+ {
+  components {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+     }
+    }
+   }
+  }
+  coords 5122.395 175.976 7026.46
+  angles 0.733 35.053 0.514
+  {
+   GenericEntity : "{8E49E48C2BD0BFE3}Prefabs/Compositions/Slotted/SlotFlatSmall/AmmoStorage_S_FIA_01.et" {
+    coords 15.457 -0.604 13.387
+    angles -0.55 -87.149 0.706
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    coords 29.156 -0.532 8.219
+    angles -1.857 128.76 -3.184
+   }
+   GenericEntity : "{AB1A97B1BAE8C395}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_01.et" {
+    coords 4.232 -1.187 47.918
+    angles -9.665 101.485 -7.604
+   }
+  }
+ }
+ {
+  components {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+     }
+    }
+   }
+  }
+  coords 6481.9 10.122 9651.959
+  angles -2.093 -113.873 1.904
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "621EB97024DABAFF"
+    coords -0.022 0.031 0.26
+    angles 0.833 -0.005 -0.328
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType SQUAD_RIFLE
+     }
+    }
+    coords -17.153 -2.448 44.984
+    angles 10.125 107.336 2.407
+   }
+  }
+ }
+ {
+  components {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+     }
+    }
+   }
+  }
+  coords 3943.542 15.914 8462.157
+  angles -2.756 -84.567 0.636
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "621EB97024DABAFF"
+    coords -0.022 0.031 0.26
+    angles 0.833 -0.005 -0.328
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType SQUAD_RIFLE
+     }
+    }
+    coords -66.129 -0.01 29.504
+    angles 0.908 84.264 2.679
+   }
+  }
+ }
+ {
+  components {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+     }
+    }
+   }
+  }
+  coords 1107.196 2.837 6085.601
+  angles -0.845 -93.152 0.943
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "621EB97024DABAFF"
+    coords -0.022 0.031 0.26
+    angles 0.833 -0.005 -0.328
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType SQUAD_RIFLE
+     }
+    }
+    coords -53.405 0.009 68.24
+    angles -0.849 -85.379 -1.813
+   }
+  }
+ }
+ {
+  components {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 2200
+     }
+    }
+   }
+  }
+  coords 2781.498 6.074 2130.788
+  angles -0.999 -7.137 -0.777
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "621EB97024DABAFF"
+    coords -0.022 0.031 0.26
+    angles 0.833 -0.005 -0.328
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType SQUAD_RIFLE
+     }
+    }
+    coords -40.315 1.886 47.533
+    angles 0.481 63.685 3.972
+   }
+  }
+ }
+ {
+  components {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 3000
+     }
+    }
+   }
+  }
+  coords 1489.375 32.229 11324.237
+  angles -6.442 -137.171 -3.529
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "621EB97024DABAFF"
+    coords -0.022 0.031 0.26
+    angles 0.833 -0.005 -0.328
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType SQUAD_RIFLE
+     }
+    }
+    coords -20.398 -8.301 56.422
+    angles -10.863 -21.434 2.18
+   }
+  }
+ }
+ {
+  components {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+     }
+    }
+   }
+  }
+  coords 7197.126 137.21 2267.197
+  angles 3.631 -1.176 2.605
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "621EB97024DABAFF"
+    coords -0.022 0.031 0.26
+    angles 0.833 -0.005 -0.328
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType SQUAD_RIFLE
+     }
+    }
+    coords 49.764 -0.773 41.436
+    angles -5.95 -55.19 -0.735
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{621EB97024DABAAF}" {
+    VisibleOnMap 0
+   }
+   SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{621EB97024DABA89}" {
+    m_vResolution 12
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_bIsControlPoint 0
+   }
+  }
+  coords 11374.202 62.95 11254.861
+  angles -3.478 -103.454 0.832
+  {
+   GenericEntity {
+    ID "622086ACB9D1E3B2"
+    components {
+     Persistence "{65EE81B2F85C473C}" {
+      Enabled 0
+     }
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+     Hierarchy "{5CCED51553F518B4}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "622086ACBB849B49"
+    components {
+     Persistence "{65EE81B2F85C473C}" {
+      Enabled 0
+     }
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+     Hierarchy "{5CCED51553F518B4}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity : "{AB1A97B1BAE8C395}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_01.et" {
+    coords 30.952 -0.663 1.597
+    angles -0.839 -6.139 0.298
+   }
+  }
+ }
+}

@@ -1,0 +1,159 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{68F0064035E5C13F}" {
+     NavmeshFile "{E58E15AF91776FB5}worlds/MP/Navmeshes/CTI_Campaign_HQC_Eden.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{7D688F9248945DA6}worlds/MP/Navmeshes/CTI_Campaign_HQC_Eden_vehicles.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{5E19E60F26327356}worlds/MP/Navmeshes/LowResEden.nmn"
+    }
+   }
+  }
+ }
+ coords 11006.604 3.332 8806.405
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 11007.42 2.569 8801.37
+}
+SCR_GameModeCampaign GameMode_CampaignHQC1 : "{2AFDAA8D7947F559}Prefabs/MP/Modes/Conflict/GameMode_CampaignHQC.et" {
+ components {
+  SCR_CacheManagerComponent "{691E6E472CBA6978}" {
+   m_iAmount 15
+   m_sTerrainConfig "{76667585C0BF7F25}Configs/Campaign/CampaignCachePool/CampaignCachePool_Eden.conf"
+  }
+  SCR_PlayerSpawnPointManagerComponent "{5CDABA98894199D0}" {
+   m_iDeployableSpawnPointTicketAmount 5
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5CC49B5A1313B84E}" {
+   m_bDateOverride 1
+   m_iDay 17
+   m_iMonth 2
+  }
+ }
+ coords 10978.538 7.373 8867.227
+ m_iControlPointsThreshold 7
+ m_fVictoryTimer 420
+ m_iQuickSuppliesReplenishThreshold 25
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 11006.148 3.021 8804.264
+ angles 9.731 -0.461 -2.723
+}
+RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
+ coords 11006.447 2.408 8801.23
+}
+SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
+ coords 11009.354 2.865 8801.876
+ Factions {
+  SCR_CampaignFaction "{50B30C3AF4BFD934}" {
+   m_aStartingVehicles {
+    "{B845B8B82C76BA68}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_filled.et"
+    "{B845B8B82C76BA68}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_filled.et"
+    "{B36056D3A35C1DED}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer_filled.et"
+    "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et"
+   }
+  }
+  SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   m_aStartingVehicles {
+    "{A3786C5C8687F004}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_MERDC_filled.et"
+    "{A3786C5C8687F004}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_MERDC_filled.et"
+    "{2013579FE0B109F3}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer_MERDC_filled.et"
+    "{47D94E1193A88497}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport.et"
+   }
+  }
+  SCR_CampaignFaction "{56F0C3A6336375DC}" {
+   m_iPlayerLimit 16
+   m_bExileRenegadePunishment 0
+   m_FactionRankInfo SCR_RankContainer "{68DA8C7B52CFEBAD}" {
+    m_aRanks {
+     SCR_RankInfoCampaign "{68DA9113AD8EF0EE}" {
+      m_iRequiredXP -210
+     }
+    }
+   }
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0EABB80080C}" {
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{60569783D4C68630}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{5D247327A7DF9711}" {
+        }
+        SCR_EntityCatalogEntry "{5C54F92F5446F5E6}" {
+        }
+        SCR_EntityCatalogEntry "{6062A41E85B92574}" {
+        }
+        SCR_EntityCatalogEntry "{6062A41F6B61AF05}" {
+        }
+        SCR_EntityCatalogEntry "{5C54F92F540A16D3}" {
+        }
+        SCR_EntityCatalogEntry "{5C54F92F54E036C8}" {
+        }
+        SCR_EntityCatalogEntry "{5C54F92F5416B33D}" {
+        }
+        SCR_EntityCatalogEntry "{5C54F92F466216D7}" {
+        }
+        SCR_EntityCatalogEntry "{5D2473274C0136C7}" {
+        }
+        SCR_EntityCatalogEntry "{605098A4AACFDC17}" {
+        }
+        SCR_EntityCatalogEntry "{5C54F92F4674F967}" {
+        }
+        SCR_EntityCatalogEntry "{5D2473274EC4AE03}" {
+        }
+        SCR_EntityCatalogEntry "{5C54F92F54200650}" {
+        }
+        SCR_EntityCatalogEntry "{62F6EC9ABBB93DAC}" {
+        }
+        SCR_EntityCatalogEntry "{62E6D84C5BB54D5D}" {
+        }
+        SCR_EntityCatalogEntry "{62E6D84C5EE3AE67}" {
+        }
+        SCR_EntityCatalogEntry "{62E6D84C5DBBBF83}" {
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{60569783D41E7AAE}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{698708CA4A06F345}" {
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  SCR_Faction "{60DCF47AEF40BD72}" {
+   m_FactionRankInfo SCR_RankContainer "{68DA8C7BAD5C746A}" {
+    m_aRanks {
+     SCR_RankInfoCampaign "{68DA91122F6E9405}" {
+      m_sRankName "Adm."
+     }
+    }
+   }
+  }
+ }
+}
+SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ coords 11008.014 2.31 8799.302
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{6324D278BBDFE9E9}" {
+  }
+  SCR_PlayerArsenalLoadout "{698708C8CE2CA4FB}" {
+   m_sLoadoutName "Loadout das forças de libertação"
+   m_sLoadoutResource "{DAFC26DAE54AD2FE}Prefabs/Characters/Campaign/Final/INDFOR/FIA/Campaign_FIA_base.et"
+   m_sAffiliatedFaction "FIA"
+  }
+ }
+}

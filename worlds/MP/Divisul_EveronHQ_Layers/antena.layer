@@ -1,0 +1,40 @@
+$grp StaticModelEntity : "{7E2380494811A5FB}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.et" {
+ Antena_Norte {
+  coords 4250.974 5.529 12221.516
+  angles -0.631 -167.536 0.07
+  {
+   GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+    components {
+     SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+      Transceivers {
+       RelayTransceiver "{5C727AD73024FB39}" {
+        "Transmitting Range" 3000
+       }
+      }
+     }
+    }
+    coords 1.86 38.153 -1.855
+    angles -0.088 -42.24 0.642
+   }
+  }
+ }
+ Antena_Sul {
+  coords 2308.343 0.569 4074.079
+  angles 0.502 111.62 0.443
+  {
+   GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+    components {
+     SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+      Transceivers {
+       RelayTransceiver "{5C727AD73024FB39}" {
+        "Transmitting Range" 2200
+       }
+      }
+     }
+    }
+    coords 1.86 38.153 -1.855
+    angles -0.088 -42.24 0.642
+   }
+  }
+ }
+}
