@@ -1,5 +1,9 @@
 MetaFileClass {
+<<<<<<<< HEAD:worlds/Divisul_EveronHQ.ent.meta
  Name "{F20FEBA03FF00CDA}worlds/MP/Divisul_EveronHQ.ent"
+========
+ Name "{27A1EF384CA30783}worlds/DIVISUL_Campaign_HQC_Everon.ent"
+>>>>>>>> 9ca4a52bc48b531b277feffdca3802b51d5cd958:worlds/DIVISUL_Campaign_HQC_Everon.ent.meta
  Configurations {
   ENTResourceClass PC {
   }
