@@ -9,20 +9,17 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
    }
   }
   coords 7576.877 166.156 4243.537
-  angles 2.813 102.468 -0.294
+  angles 0 -70.641 0
   {
    GenericEntity {
     ID "622086ACB9D1E3B2"
-    coords 26.33 2.668 -43.037
+    coords 30.134 0.685 -30.56
+    angles 0.297 -0.004 -0.845
    }
    GenericEntity {
     ID "622086ACBB849B49"
-    coords -28.237 2.586 -35.681
-   }
-   SCR_CampaignSpawnPointGroup {
-    ID "621EB97024DABAFF"
-    coords -0.022 0.031 0.26
-    angles 0.833 -0.005 -0.328
+    coords -21.678 0.344 -16.17
+    angles 0 -0.841 0
    }
    GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     components {
@@ -30,8 +27,8 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
       m_eGroupType SQUAD_RIFLE
      }
     }
-    coords -4.326 -1.356 28.049
-    angles -1.262 175.677 2.522
+    coords -4.326 0.516 28.049
+    angles -2.592 175.693 -0.697
    }
   }
  }
