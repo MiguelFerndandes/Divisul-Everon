@@ -96,16 +96,22 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
   }
  }
  {
-  coords 8735.428 108.394 2587.818
-  angles 7.642 -122.176 0.448
+  components {
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 80
+   }
+  }
+  coords 7494.518 118.203 2076.722
+  angles -4.627 166.958 -8.036
   {
    GenericEntity {
     ID "62388D8F13AD0811"
-    coords 20.153 11.491 86.882
+    coords -19.599 2.033 42.669
+    angles 1.13 0.33 1.603
    }
    SCR_CampaignSpawnPointGroup {
     ID "621EB97024DABAFF"
-    coords 0 -0.001 0
+    coords 0 0 0
    }
    $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     {
@@ -114,8 +120,8 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
        m_eGroupType TEAM_MG_ELITE
       }
      }
-     coords 19.866 -1.756 -13.11
-     angles -7.804 -177.34 2.474
+     coords -26.763 1.909 12.272
+     angles -1.375 -177.834 -4.229
     }
     {
      components {
@@ -123,8 +129,8 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
        m_eGroupType TEAM_AT
       }
      }
-     coords -10.633 3.326 51.197
-     angles 2.749 85.443 7.965
+     coords -14.117 1.716 36.918
+     angles -2.359 85.729 1.45
     }
    }
   }
@@ -245,21 +251,64 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
   }
  }
  {
-  coords 6625.537 5.296 3140.487
-  angles 1.208 167.006 -6.678
+  components {
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 80
+   }
+  }
+  coords 7886.769 256.625 4006.702
+  angles 0 -51.166 0
   {
+   GenericEntity {
+    ID "62388D8F13AD0811"
+    coords 0.499 0.02 -0.067
+   }
    SCR_CampaignSpawnPointGroup {
     ID "621EB97024DABAFF"
-    coords 0.195 -0.06 0.372
-    angles -1.498 3.287 -0.925
+    coords 0 0 0
    }
    GenericEntity : "{1804DADC1C7C9893}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_01_Campaign_HQC.et" {
-    coords 20.813 -2.363 8.803
-    angles 3.973 -105.201 -0.106
+    coords -20.481 0 3.451
+    angles 0 2.088 0
+    {
+     GenericEntity {
+      ID "5D1ED92956CA16A0"
+      coords -7.113 0.154 -3.619
+      angles -0.452 -50.176 2.793
+     }
+     GenericEntity {
+      ID "5D1ED92956CA1650"
+      coords -7.5 0.082 -2.865
+      angles -3.513 0.234 5.239
+     }
+     GenericEntity {
+      ID "5D1ED92956CA1605"
+      coords -6.85 0.494 -6.97
+      angles 0.835 95.04 -11.842
+     }
+     GenericEntity {
+      ID "5D1ED92956CA1668"
+      coords -8.265 0.315 -5.283
+      angles -7.078 51.646 -1.206
+     }
+     GenericEntity {
+      ID "5D1ED92956CA1618"
+      coords -7.736 0.078 -1.687
+      angles -0.248 -70.2 3.215
+     }
+     GenericEntity {
+      ID "5D1ED92956CA1680"
+      coords -0.726 0 -7.099
+     }
+     GenericEntity {
+      ID "5D1ED92956CA16B3"
+      coords -1.087 0 -3.329
+     }
+    }
    }
    GenericEntity : "{8576AB93B8D2708F}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign_HQC.et" {
-    coords -30.646 6.883 -6.061
-    angles -0.042 -15.914 9.183
+    coords -10.033 0 0.176
+    angles 0 -0.981 0
    }
   }
  }
@@ -328,8 +377,13 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
   }
  }
  {
-  coords 8793.048 196.594 3901.527
-  angles 0 -89.983 0
+  components {
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 80
+   }
+  }
+  coords 8479.083 152.666 3624.307
+  angles -3.766 -134.404 -2.564
   {
    SCR_CampaignSpawnPointGroup {
     ID "621EB97024DABAFF"
@@ -337,8 +391,8 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
     angles -1.498 3.287 -0.925
    }
    GenericEntity : "{1804DADC1C7C9893}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_01_Campaign_HQC.et" {
-    coords 1.928 0.265 18.756
-    angles -0.225 -172.814 1.776
+    coords -7.719 -0.109 5.816
+    angles 1.895 -90.618 1.885
    }
   }
  }
@@ -354,21 +408,6 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
    GenericEntity : "{1804DADC1C7C9893}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_01_Campaign_HQC.et" {
     coords 19.909 -0.329 11.795
     angles -3.784 -178.441 -0.247
-   }
-  }
- }
- {
-  coords 7928.083 11.767 1443.819
-  angles 7.12 37.182 0.927
-  {
-   SCR_CampaignSpawnPointGroup {
-    ID "621EB97024DABAFF"
-    coords 0.195 -0.06 0.372
-    angles -1.498 3.287 -0.925
-   }
-   GenericEntity : "{1804DADC1C7C9893}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_01_Campaign_HQC.et" {
-    coords -36.198 0.069 6.796
-    angles 0.686 98.971 -3.122
    }
   }
  }

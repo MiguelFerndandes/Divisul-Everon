@@ -95,25 +95,26 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
     "Turned on" 1
     Transceivers {
      RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 3000
      }
     }
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 80
     m_iRegularSuppliesIncomeBase 50
     m_iSuppliesArrivalInterval 120
    }
   }
-  coords 8241.344 223.125 2164.932
-  angles -5.198 -63.708 -1.57
+  coords 7140.028 146.006 2512.15
+  angles -6.896 86.487 3.978
   {
    SCR_CampaignSpawnPointGroup {
     ID "621EB97024DABAFF"
-    coords 0.235 -0.137 -0.571
     angles 0.871 0.052 3.443
    }
    GenericEntity : "{2EA9E10F2E9C0A36}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_04_Campaign_HQC.et" {
-    coords -23.264 4.029 42.16
-    angles -0.838 -142.933 -0.303
+    coords 17.824 0.801 25.914
+    angles 0.039 2.653 2.645
     {
      GenericEntity {
       ID "5D453938FA2CE085"
@@ -122,20 +123,20 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
       {
        GenericEntity {
         ID "5D453938F45912F0"
-        coords -0.274 -0.512 0.741
-        angles 0.636 -0.019 -1.688
+        coords -0.199 -0.1 -1.218
+        angles -1.472 -0.187 -5.558
        }
        GenericEntity {
         ID "5D453938F45912F6"
-        coords -0.073 -0.58 -3.714
-        angles 4.151 -92.322 1.296
+        coords 3.52 0.301 -1.526
+        angles -7.049 -93.403 4.511
        }
       }
      }
      GenericEntity {
       ID "5D1ED92353BB9FB1"
-      coords -4.733 -0.482 -2.378
-      angles -1.977 93.609 0.11
+      coords -4.805 -0.257 -3.995
+      angles 3.527 93.591 0.169
      }
      GenericEntity {
       ID "5D1ED92353BB9FF4"
@@ -144,8 +145,8 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
      }
      GenericEntity {
       ID "5D1ED92353BB9FA0"
-      coords -4.297 -0.496 -2.409
-      angles 1.968 -89.342 -0.211
+      coords -4.372 -0.23 -4.028
+      angles -3.531 -89.504 0.021
      }
      GenericEntity {
       ID "5D1ED92353BB9E28"
@@ -159,18 +160,18 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
      }
      GenericEntity {
       ID "5D1ED92353BB9F49"
-      coords -4.423 -0.472 0.563
-      angles -0.067 -0.003 2.793
+      coords -4.477 -0.293 -0.993
+      angles -1.796 0.214 -3.52
      }
      GenericEntity {
       ID "5D1ED92353BB9F82"
-      coords 3.313 -1.312 1.671
-      angles 8.615 -90.94 -6.254
+      coords 2.52 0.122 0.595
+      angles -6.706 -93.732 4.905
      }
      GenericEntity {
       ID "5D1ED92353BB9F95"
-      coords 3.42 -1.408 0.178
-      angles 6.326 -88.616 -4.143
+      coords 0.263 -0.001 0.755
+      angles 0 -88.576 0
      }
      GenericEntity {
       ID "5D1ED92353BB9FE3"
@@ -181,6 +182,11 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
       ID "5D1ED92353BB9E3E"
       coords 5.168 -1.563 0.196
       angles 5.166 4.46 -0.589
+     }
+     GenericEntity {
+      ID "5E330D6C9FDD1551"
+      coords -3.477 -0.433 1.114
+      angles -10.345 -7.205 -10.798
      }
     }
    }

@@ -331,26 +331,6 @@ $grp GenericEntity : "{34EB1F16E01716A4}PrefabsEditable/EffectsModules/Mine/Effe
     }
    }
   }
-  coords 7282.143 143.074 2147.256
-  angles -6.963 48.318 -10.359
- }
- {
-  components {
-   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
-    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
-    }
-   }
-  }
-  coords 6674.356 9.736 3051.903
-  angles -2.17 -53.924 -1.58
- }
- {
-  components {
-   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
-    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
-    }
-   }
-  }
   coords 7469.011 169.324 4183.067
   angles -3.3 12.468 -1.644
  }
