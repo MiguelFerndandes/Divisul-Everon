@@ -58,6 +58,28 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
  coords 11009.354 2.865 8801.876
  Factions {
   SCR_CampaignFaction "{50B30C3AF4BFD934}" {
+   m_FactionRankInfo SCR_RankContainer "{68DA8C7B69EED72C}" {
+    m_aRanks {
+     SCR_RankInfoCampaign "{6A2345BD2D86A02A}" {
+      m_iRank COLONEL
+      m_iRequiredXP 4800
+      m_sRankName "Colonel"
+      m_sRankNameUpper "COLONEL"
+      m_sRankNameShort "COL"
+      m_sInsignia "AR_Rank_OF-5"
+      m_iRequestCD 5
+     }
+     SCR_RankInfoCampaign "{6A2345BDFD03CD9D}" {
+      m_iRank GENERAL
+      m_iRequiredXP 6600
+      m_sRankName "General"
+      m_sRankNameUpper "GENERAL"
+      m_sRankNameShort "GEN"
+      m_sInsignia "AR_Rank_OF-9"
+      m_iRequestCD 5
+     }
+    }
+   }
    m_aStartingVehicles {
     "{B845B8B82C76BA68}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_filled.et"
     "{B845B8B82C76BA68}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_filled.et"
@@ -66,6 +88,28 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
    }
   }
   SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   m_FactionRankInfo SCR_RankContainer "{68E0F79D3A32917E}" {
+    m_aRanks {
+     SCR_RankInfoCampaign "{6A2345BD9BE24848}" {
+      m_iRank COLONEL
+      m_iRequiredXP 4800
+      m_sRankName "Colonel"
+      m_sRankNameUpper "COLONEL"
+      m_sRankNameShort "COL"
+      m_sInsignia "AR_Rank_OF-5"
+      m_iRequestCD 5
+     }
+     SCR_RankInfoCampaign "{6A2345BDB15CA75C}" {
+      m_iRank GENERAL
+      m_iRequiredXP 6600
+      m_sRankName "General"
+      m_sRankNameUpper "GENERAL"
+      m_sRankNameShort "GEN"
+      m_sInsignia "AR_Rank_OF-9"
+      m_iRequestCD 5
+     }
+    }
+   }
    m_aStartingVehicles {
     "{A3786C5C8687F004}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_MERDC_filled.et"
     "{A3786C5C8687F004}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_MERDC_filled.et"

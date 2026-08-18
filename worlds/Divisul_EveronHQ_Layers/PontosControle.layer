@@ -8,9 +8,17 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     }
    }
   }
-  coords 7501.667 165.625 4301.021
+  coords 7576.877 166.156 4243.537
   angles 2.813 102.468 -0.294
   {
+   GenericEntity {
+    ID "622086ACB9D1E3B2"
+    coords 26.33 2.668 -43.037
+   }
+   GenericEntity {
+    ID "622086ACBB849B49"
+    coords -28.237 2.586 -35.681
+   }
    SCR_CampaignSpawnPointGroup {
     ID "621EB97024DABAFF"
     coords -0.022 0.031 0.26
@@ -22,7 +30,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
       m_eGroupType SQUAD_RIFLE
      }
     }
-    coords -39.35 -0.681 28.617
+    coords -4.326 -1.356 28.049
     angles -1.262 175.677 2.522
    }
   }
@@ -36,17 +44,17 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     }
    }
   }
-  coords 4975.423 2.598 3846.245
+  coords 5029.551 2.188 3822.396
   angles -1.245 -55.564 0.232
   {
    GenericEntity {
     ID "622086ACB9D1E3B2"
-    coords 16.923 0.974 60.539
+    coords 16.921 1.374 60.53
     angles 1.242 -0.759 -0.248
    }
    GenericEntity {
     ID "622086ACBB849B49"
-    coords 13.953 -0.485 -6.01
+    coords 21.067 0.06 -6.023
     angles 1.245 -0.005 -0.232
    }
    SCR_CampaignSpawnPointGroup {
@@ -60,7 +68,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
       m_eGroupType SQUAD_RIFLE
      }
     }
-    coords 66.038 1.75 33.2
+    coords 50.652 0.926 35.243
     angles -2.14 97.59 7.685
    }
   }
@@ -74,8 +82,8 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     }
    }
   }
-  coords 5135.246 58.664 5396.771
-  angles 1.788 -177.046 0.092
+  coords 4860.734 53.082 5855.748
+  angles 1.742 -177.047 0.986
   {
    SCR_CampaignSpawnPointGroup {
     ID "621EB97024DABAFF"
@@ -96,8 +104,8 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     angles 1.837 -89.611 -0.787
    }
    GenericEntity : "{AB1A97B1BAE8C395}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_01.et" {
-    coords -1.657 -0.928 37.785
-    angles 4.69 -174.404 -1.104
+    coords -8.857 0.065 -10.477
+    angles -0.667 45.258 0.596
    }
   }
  }

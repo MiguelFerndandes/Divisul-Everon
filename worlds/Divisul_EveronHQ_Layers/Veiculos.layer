@@ -320,7 +320,7 @@ $grp Vehicle : "{F7E9AA0C813EABDA}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA.et"
   angles -0.315 -161.072 3.673
  }
  UAZ469_FIA3 {
-  coords 984.72 2.844 6036.277
-  angles 0 93.326 0
+  coords 1067.272 2.719 6020.321
+  angles 0 3.326 0
  }
 }
