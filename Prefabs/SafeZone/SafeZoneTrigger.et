@@ -12,4 +12,7 @@ BPS_SafeZoneTriggerEntity {
  }
  m_FriendlyFireConfig BPS_FriendlyFireConfig "{6A261D0F371300B7}" : "{CEF29029541F3A3A}Prefabs/SafeZone/SafeZoneFriendlyFire.conf" {
  }
+ m_MapDisplayConfig BPS_MapDisplayConfig "{6A2655BA08B169E6}" {
+ }
+ m_bDebug 0
 }
