@@ -87,6 +87,9 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
      }
     }
    }
+   BPS_SafeZoneTriggerEntity : "{7034585EEA1224F2}Prefabs/SafeZone/SafeZoneTrigger.et" {
+    coords 0 0 0
+   }
   }
  }
  BasePrincipalSul {
@@ -189,6 +192,9 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
       angles -10.345 -7.205 -10.798
      }
     }
+   }
+   BPS_SafeZoneTriggerEntity : "{7034585EEA1224F2}Prefabs/SafeZone/SafeZoneTrigger.et" {
+    coords 0 0 0
    }
   }
  }

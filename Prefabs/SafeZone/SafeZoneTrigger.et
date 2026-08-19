@@ -1,0 +1,15 @@
+BPS_SafeZoneTriggerEntity {
+ ID "6A2578E5E01C0982"
+ coords 0 0 0
+ TriggerShapeType Sphere
+ SphereRadius 1000
+ TriggerActivationType "All changes"
+ m_FriendlyMessages BPS_FriendlyMessagesConfig "{6A261034C7635008}" : "{294030520A88B418}Prefabs/SafeZone/SafeZoneFriendlyMessages.conf" {
+ }
+ m_IntruderConfig BPS_IntruderConfig "{6A2606653AD454CF}" : "{2B079AD8EE6A56DB}Prefabs/SafeZone/SafeZoneIntruder.conf" {
+ }
+ m_CombatConfig BPS_CombatConfig "{6A260665810B8F83}" : "{2F9C34A0FBB1F51E}Prefabs/SafeZone/SafeZoneCombat.conf" {
+ }
+ m_FriendlyFireConfig BPS_FriendlyFireConfig "{6A260665B8F2C3C3}" : "{CEF29029541F3A3A}Prefabs/SafeZone/SafeZoneFriendlyFire.conf" {
+ }
+}
