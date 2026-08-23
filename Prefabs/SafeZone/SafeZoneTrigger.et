@@ -2,7 +2,7 @@ BPS_SafeZoneTriggerEntity {
  ID "6A2578E5E01C0982"
  coords 0 0 0
  TriggerShapeType Sphere
- SphereRadius 1000
+ SphereRadius 700
  TriggerActivationType "All changes"
  m_FriendlyMessages BPS_FriendlyMessagesConfig "{6A261D0F36308CF8}" : "{294030520A88B418}Prefabs/SafeZone/SafeZoneFriendlyMessages.conf" {
  }

@@ -614,27 +614,40 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
   }
  }
  {
-  coords 9867.769 6.993 246.604
-  angles -1.229 31.213 0.302
+  components {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 10000
+     }
+    }
+   }
+  }
+  coords 9359.595 50.094 1955.925
+  angles -10.641 -135.362 -0.555
   {
    GenericEntity {
     ID "62388D8F13AD0811"
-    coords 6.055 0.421 16.948
-    angles -4.164 -179.519 1.633
+    coords -2.568 0.539 6.274
+    angles -13.796 -179.605 1.282
    }
    GenericEntity : "{8576AB93B8D2708F}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign_HQC.et" {
-    coords -11.129 -0.081 5.911
-    angles 1.219 -1.821 -0.34
+    coords -11.126 0.222 5.855
+    angles 6.038 -2.163 -4.06
     {
      GenericEntity {
       ID "5D1ED92C4DD6AE02"
-      coords -6.401 -0.047 -2.668
+      coords -6.4 -0.132 -2.665
       angles -0.592 -87.923 -2.46
      }
      GenericEntity {
       ID "5D1ED92C4DD6AE2E"
-      coords -6.424 -0.006 -1.532
+      coords -6.423 -0.091 -1.528
       angles 0 -2.813 0
+     }
+     GenericEntity {
+      ID "5D1ED92C4DD6AFC6"
+      coords -6.879 -0.104 0.095
      }
     }
    }
