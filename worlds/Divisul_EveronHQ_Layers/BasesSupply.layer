@@ -144,7 +144,7 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
     m_iRadius 80
    }
   }
-  coords 7746.505 144.141 2134.428
+  coords 7744.291 143.352 2135.742
   angles 17.042 120.69 11.788
   {
    GenericEntity {
@@ -329,7 +329,7 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
     m_iRadius 80
    }
   }
-  coords 7893.727 256.625 4004.637
+  coords 7891.108 256.625 4001.384
   angles 0 -51.166 0
   {
    GenericEntity {
@@ -341,7 +341,7 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
     coords 0 0 0
    }
    GenericEntity : "{8576AB93B8D2708F}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign_HQC.et" {
-    coords -17.123 0 3.098
+    coords -13.09 0 3.167
     angles 0 -0.981 0
    }
   }
