@@ -98,39 +98,32 @@ $grp GenericEntity : "{1BAE4DF554AED35C}PrefabsEditable/EffectsModules/Mine/Effe
   components {
    SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
     m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
-     m_iMinProjectilesEachBarrage 28
-     m_iMaxProjectilesEachBarrage 30
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{5D22CCE8D39ECEDA}" {
+      m_fWidth 9.9
+     }
+     m_iMinProjectilesEachBarrage 10
+     m_iMaxProjectilesEachBarrage 14
     }
    }
   }
-  coords 6190.64 84.885 5781.281
-  angles 0.087 5.586 -0.891
-  {
-   GenericEntity {
-    ID "616C96D8967A1736"
-    coords 0 1.289 0
-    angles 1.755 11.34 0.352
-   }
-  }
+  coords 6156.483 84.836 5804.742
+  angles -0.776 119.867 -0.446
  }
  {
   components {
    SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
     m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
-     m_iMinProjectilesEachBarrage 28
-     m_iMaxProjectilesEachBarrage 30
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{5D22CCE8D39ECEDA}" {
+      m_fWidth 18.4
+      m_fLength 14.4
+     }
+     m_iMinProjectilesEachBarrage 6
+     m_iMaxProjectilesEachBarrage 10
     }
    }
   }
-  coords 6826.572 72.963 4811.481
+  coords 6839.52 73.655 4795.789
   angles -0.532 48.017 -1.929
-  {
-   GenericEntity {
-    ID "616C96D8967A1736"
-    coords 0 1.289 0
-    angles 1.755 11.34 0.352
-   }
-  }
  }
  {
   components {
@@ -250,20 +243,16 @@ $grp GenericEntity : "{1BAE4DF554AED35C}PrefabsEditable/EffectsModules/Mine/Effe
   components {
    SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
     m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
-     m_iMinProjectilesEachBarrage 28
-     m_iMaxProjectilesEachBarrage 30
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{5D22CCE8D39ECEDA}" {
+      m_fWidth 9.2
+     }
+     m_iMinProjectilesEachBarrage 8
+     m_iMaxProjectilesEachBarrage 12
     }
    }
   }
-  coords 1620.858 70.312 5746.623
-  angles 0.628 31.256 -2.758
-  {
-   GenericEntity {
-    ID "616C96D8967A1736"
-    coords 0 1.289 0
-    angles 1.755 11.34 0.352
-   }
-  }
+  coords 1649.838 71.917 5730.813
+  angles -2.79 -62.112 -0.464
  }
  {
   components {
@@ -307,20 +296,16 @@ $grp GenericEntity : "{1BAE4DF554AED35C}PrefabsEditable/EffectsModules/Mine/Effe
   components {
    SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
     m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
-     m_iMinProjectilesEachBarrage 28
-     m_iMaxProjectilesEachBarrage 30
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{5D22CCE8D39ECEDA}" {
+      m_fWidth 10
+     }
+     m_iMinProjectilesEachBarrage 5
+     m_iMaxProjectilesEachBarrage 12
     }
    }
   }
-  coords 5746.327 30.594 4356.675
-  angles -10.939 76.231 -0.051
-  {
-   GenericEntity {
-    ID "616C96D8967A1736"
-    coords 0 1.289 0
-    angles 1.755 11.34 0.352
-   }
-  }
+  coords 5877.203 18.102 4364.314
+  angles 0.923 89.641 4.461
  }
 }
 $grp GenericEntity : "{34EB1F16E01716A4}PrefabsEditable/EffectsModules/Mine/EffectModule_MineField_AP_Medium_USSR.et" {
@@ -390,26 +375,6 @@ $grp GenericEntity : "{34EB1F16E01716A4}PrefabsEditable/EffectsModules/Mine/Effe
   }
   coords 5067.815 55.9 5376.144
   angles 1.117 38.607 -1.399
- }
- {
-  components {
-   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
-    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
-    }
-   }
-  }
-  coords 5049.836 6.981 3906.455
-  angles 8.097 39.676 5.525
- }
- {
-  components {
-   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
-    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
-    }
-   }
-  }
-  coords 5000.537 9.29 3937.02
-  angles 26.406 24.767 0.277
  }
  {
   components {
@@ -488,16 +453,6 @@ $grp GenericEntity : "{34EB1F16E01716A4}PrefabsEditable/EffectsModules/Mine/Effe
     }
    }
   }
-  coords 5014.665 26.523 10794.585
-  angles -1.546 97.345 -2.003
- }
- {
-  components {
-   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
-    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
-    }
-   }
-  }
   coords 5133.863 175.5 6967.686
   angles 0 39.566 0
  }
@@ -520,6 +475,13 @@ $grp GenericEntity : "{34EB1F16E01716A4}PrefabsEditable/EffectsModules/Mine/Effe
   }
   coords 2411.892 110.02 5467.301
   angles 6.147 7.466 7.935
+  {
+   GenericEntity {
+    ID "616C96D8967A1736"
+    coords 253.466 40.073 -193.907
+    angles -11.703 2.531 -11.739
+   }
+  }
  }
  {
   components {
