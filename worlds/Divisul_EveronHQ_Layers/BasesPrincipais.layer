@@ -18,7 +18,7 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
   {
    GenericEntity : "{2EA9E10F2E9C0A36}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_04_Campaign_HQC.et" {
     coords 25.979 -2.26 25.773
-    angles 2.551 -16.704 -0.833
+    angles -1.141 -16.85 2.259
     {
      GenericEntity {
       ID "5D453938FA2CE085"
@@ -31,34 +31,34 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
        }
        GenericEntity {
         ID "5D453938F45912F6"
-        coords -0.1 0.611 -4.619
+        coords -0.101 0.248 -4.618
         angles 0 -92.416 0
        }
       }
      }
      GenericEntity {
       ID "5D1ED92353BB9FB1"
-      coords -4.765 0.839 -2.363
+      coords -4.762 0.36 -2.363
       angles 0 93.613 0
      }
      GenericEntity {
       ID "5D1ED92353BB9FF4"
-      coords 3.512 0.07 -2.941
-      angles 0 0.819 0
+      coords 3.537 0.072 -2.929
+      angles 4.207 0.929 1.497
      }
      GenericEntity {
       ID "5D1ED92353BB9FA0"
-      coords -4.33 0.716 -2.394
+      coords -4.326 0.337 -2.396
       angles 0 -89.335 0
      }
      GenericEntity {
       ID "5D1ED92353BB9E28"
-      coords 0.216 0.355 -3.799
+      coords 0.217 0.083 -3.799
       angles 0 -3.43 0
      }
      GenericEntity {
       ID "5D1ED92353BB9FD2"
-      coords 0.234 0.377 -4.975
+      coords 0.234 0.105 -4.975
       angles 0 -0.492 0
      }
      GenericEntity {
@@ -77,13 +77,17 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
      }
      GenericEntity {
       ID "5D1ED92353BB9FE3"
-      coords 3.358 -0.019 -1.786
-      angles 0 176.173 0
+      coords 3.36 0.036 -1.803
+      angles 1.401 176.173 0
      }
      GenericEntity {
       ID "5D1ED92353BB9E3E"
       coords 5.028 -0.265 0.135
       angles 0 4.513 0
+     }
+     GenericEntity {
+      ID "5E330D6C9FDD1551"
+      coords -3.815 0.596 2.855
      }
     }
    }
@@ -109,15 +113,15 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
    }
   }
   coords 7140.028 146.006 2512.15
-  angles -6.896 86.487 3.978
+  angles 0 86.487 0
   {
    SCR_CampaignSpawnPointGroup {
     ID "621EB97024DABAFF"
     angles 0.871 0.052 3.443
    }
    GenericEntity : "{2EA9E10F2E9C0A36}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_04_Campaign_HQC.et" {
-    coords 17.824 0.801 25.914
-    angles 0.039 2.653 2.645
+    coords 17.667 -3.561 25.924
+    angles -7.068 2.305 2.812
     {
      GenericEntity {
       ID "5D453938FA2CE085"
@@ -138,7 +142,7 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
      }
      GenericEntity {
       ID "5D1ED92353BB9FB1"
-      coords -4.805 -0.257 -3.995
+      coords -4.825 0.062 -3.994
       angles 3.527 93.591 0.169
      }
      GenericEntity {
@@ -148,7 +152,7 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
      }
      GenericEntity {
       ID "5D1ED92353BB9FA0"
-      coords -4.372 -0.23 -4.028
+      coords -4.39 0.066 -4.028
       angles -3.531 -89.504 0.021
      }
      GenericEntity {
@@ -163,17 +167,17 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
      }
      GenericEntity {
       ID "5D1ED92353BB9F49"
-      coords -4.477 -0.293 -0.993
-      angles -1.796 0.214 -3.52
+      coords -4.498 -0.126 -0.898
+      angles -4.831 0.209 0.098
      }
      GenericEntity {
       ID "5D1ED92353BB9F82"
-      coords 2.52 0.122 0.595
+      coords 2.5 -0.207 0.735
       angles -6.706 -93.732 4.905
      }
      GenericEntity {
       ID "5D1ED92353BB9F95"
-      coords 0.263 -0.001 0.755
+      coords 0.263 -0.127 0.756
       angles 0 -88.576 0
      }
      GenericEntity {
@@ -188,13 +192,12 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
      }
      GenericEntity {
       ID "5E330D6C9FDD1551"
-      coords -3.477 -0.433 1.114
+      coords -3.687 0.063 1.48
       angles -10.345 -7.205 -10.798
      }
     }
    }
    BPS_SafeZoneTriggerEntity : "{7034585EEA1224F2}Prefabs/SafeZone/SafeZoneTrigger.et" {
-    coords 0 0 0
    }
   }
  }
