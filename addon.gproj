@@ -3,7 +3,7 @@ GameProject {
  GUID "69D756409C087083"
  TITLE "Divisul Everon"
  Dependencies {
-  "58D0FB3206B6F859" "5F2944B7474F043F" "6A2453EFB2727A93"
+  "58D0FB3206B6F859" "6A2453EFB2727A93"
  }
  Configurations {
   GameProjectConfig PC {

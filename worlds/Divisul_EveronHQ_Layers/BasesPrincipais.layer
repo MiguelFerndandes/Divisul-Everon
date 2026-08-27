@@ -27,7 +27,8 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
       {
        GenericEntity {
         ID "5D453938F45912F0"
-        coords -0.333 0.159 0.049
+        coords 0.785 0.049 0.534
+        angles -0.227 -0.339 -0.306
        }
        GenericEntity {
         ID "5D453938F45912F6"
@@ -63,16 +64,17 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
      }
      GenericEntity {
       ID "5D1ED92353BB9F49"
-      coords -4.459 0.298 0.562
+      coords -4.421 0.177 0.595
+      angles -9.995 -0.586 3.374
      }
      GenericEntity {
       ID "5D1ED92353BB9F82"
-      coords 3.193 -0.294 1.616
+      coords 3.194 0.035 1.616
       angles 0 -90 0
      }
      GenericEntity {
       ID "5D1ED92353BB9F95"
-      coords 3.296 -0.184 0.125
+      coords 3.297 -0.011 0.125
       angles 0 -88.159 0
      }
      GenericEntity {
@@ -87,7 +89,7 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
      }
      GenericEntity {
       ID "5E330D6C9FDD1551"
-      coords -3.815 0.596 2.855
+      coords -3.308 0.601 2.921
      }
     }
    }
