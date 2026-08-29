@@ -114,16 +114,12 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
     m_iSuppliesArrivalInterval 120
    }
   }
-  coords 7140.028 146.006 2512.15
-  angles 0 86.487 0
+  coords 7260.701 137.567 2435.404
+  angles 4.565 -92.175 2.504
   {
-   SCR_CampaignSpawnPointGroup {
-    ID "621EB97024DABAFF"
-    angles 0.871 0.052 3.443
-   }
    GenericEntity : "{2EA9E10F2E9C0A36}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_04_Campaign_HQC.et" {
-    coords 17.667 -3.561 25.924
-    angles -7.068 2.305 2.812
+    coords -13.273 -0.584 18.862
+    angles -0.294 89.246 -5.348
     {
      GenericEntity {
       ID "5D453938FA2CE085"
@@ -132,13 +128,13 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
       {
        GenericEntity {
         ID "5D453938F45912F0"
-        coords -0.199 -0.1 -1.218
-        angles -1.472 -0.187 -5.558
+        coords -0.306 -0.449 -2.045
+        angles 6.502 -0.659 -3.399
        }
        GenericEntity {
         ID "5D453938F45912F6"
-        coords 3.52 0.301 -1.526
-        angles -7.049 -93.403 4.511
+        coords 2.629 -0.027 -0.93
+        angles -1.86 -90.589 -10.147
        }
       }
      }
@@ -159,28 +155,28 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
      }
      GenericEntity {
       ID "5D1ED92353BB9E28"
-      coords 0.288 -0.881 -3.787
-      angles 2.57 -2.744 14.95
+      coords 0.408 -0.467 -3.811
+      angles 13.415 -2.668 0.405
      }
      GenericEntity {
       ID "5D1ED92353BB9FD2"
-      coords 0.311 -0.924 -4.962
-      angles 1.835 0.001 15.055
+      coords 0.444 -0.758 -4.959
+      angles 14.996 -0.199 -0.878
      }
      GenericEntity {
       ID "5D1ED92353BB9F49"
-      coords -4.498 -0.126 -0.898
-      angles -4.831 0.209 0.098
+      coords -4.5 -0.353 -0.801
+      angles 4.303 -0.26 -2.944
      }
      GenericEntity {
       ID "5D1ED92353BB9F82"
-      coords 2.5 -0.207 0.735
-      angles -6.706 -93.732 4.905
+      coords 0.452 0.033 0.644
+      angles 0 -94.34 -0
      }
      GenericEntity {
       ID "5D1ED92353BB9F95"
-      coords 0.263 -0.127 0.756
-      angles 0 -88.576 0
+      coords -2.224 0.007 1.018
+      angles -0.336 -92.189 -3.563
      }
      GenericEntity {
       ID "5D1ED92353BB9FE3"
@@ -194,8 +190,8 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
      }
      GenericEntity {
       ID "5E330D6C9FDD1551"
-      coords -3.687 0.063 1.48
-      angles -10.345 -7.205 -10.798
+      coords -3.528 0.537 1.596
+      angles 3.349 -7.577 -1.547
      }
     }
    }

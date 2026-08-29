@@ -278,8 +278,8 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     }
    }
   }
-  coords 1489.375 32.229 11324.237
-  angles -6.442 -137.171 -3.529
+  coords 1439.836 36.285 11379.902
+  angles -7.536 -116.349 -7.136
   {
    SCR_CampaignSpawnPointGroup {
     ID "621EB97024DABAFF"
