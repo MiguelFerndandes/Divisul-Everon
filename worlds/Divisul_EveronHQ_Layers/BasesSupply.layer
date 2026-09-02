@@ -7,6 +7,7 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
     ID "62388D8F13AD0811"
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
       m_eImportance HIGH
      }
     }
@@ -123,6 +124,7 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
     {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
        m_eGroupType TEAM_MG_ELITE
        m_eImportance HIGH
       }
@@ -133,6 +135,7 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
     {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
        m_eGroupType SQUAD_RIFLE
        m_eImportance HIGH
       }
@@ -144,8 +147,8 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
   }
  }
  {
-  coords 4302.107 1.125 9539.396
-  angles 0 46.736 0
+  coords 4320.957 1.125 9512.411
+  angles 0 -108.427 0
   {
    GenericEntity {
     ID "62388D8F13AD0811"
@@ -158,12 +161,12 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
    }
    $grp GenericEntity : "{8576AB93B8D2708F}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign_HQC.et" {
     {
-     coords 5.855 0 -8.986
-     angles 0 -2.209 0
+     coords 22.404 0 15.17
+     angles 0 153.645 0
     }
     {
-     coords 23.94 0 9.504
-     angles 0 -66.894 0
+     coords 13.542 0 -9.232
+     angles 0 86.674 0
     }
    }
    GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
