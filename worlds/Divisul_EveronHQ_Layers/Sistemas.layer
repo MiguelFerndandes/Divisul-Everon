@@ -23,6 +23,7 @@ SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
   }
  }
  coords 11006.604 3.332 8806.405
+ "Active AI limit" 256
 }
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 11007.42 2.569 8801.37
@@ -44,7 +45,7 @@ SCR_GameModeCampaign GameMode_CampaignHQC1 : "{2AFDAA8D7947F559}Prefabs/MP/Modes
  }
  coords 10978.538 7.373 8867.227
  m_iControlPointsThreshold 7
- m_fVictoryTimer 420
+ m_fVictoryTimer 600
  m_iQuickSuppliesReplenishThreshold 25
 }
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {

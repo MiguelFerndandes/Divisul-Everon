@@ -2,7 +2,8 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
  {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType TEAM_AT
+    m_eGroupType TEAM_MG
+    m_eImportance NORMAL
    }
   }
   coords 7573.25 147.658 4641.993
@@ -93,18 +94,10 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType SQUAD_RIFLE
+    m_eImportance NORMAL
    }
   }
-  coords 5704.197 43.243 4374.793
-  angles -17.443 118.831 -0.68
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType TEAM_AT
-   }
-  }
-  coords 3988.254 17.75 3702.061
-  angles -8.342 -32.252 -11.362
+  coords 5794.1 21.708 4364.426
+  angles -6.236 87.444 0.278
  }
 }

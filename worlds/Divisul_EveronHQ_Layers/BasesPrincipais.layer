@@ -104,7 +104,7 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
     "Turned on" 1
     Transceivers {
      RelayTransceiver "{621EB97024DABAB8}" {
-      "Transmitting Range" 3000
+      "Transmitting Range" 2400
      }
     }
    }
@@ -171,7 +171,7 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
      GenericEntity {
       ID "5D1ED92353BB9F82"
       coords 0.452 0.033 0.644
-      angles 0 -94.34 -0
+      angles 0 -94.34 0
      }
      GenericEntity {
       ID "5D1ED92353BB9F95"

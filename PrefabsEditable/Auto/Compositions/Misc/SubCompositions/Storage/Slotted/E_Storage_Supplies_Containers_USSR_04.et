@@ -1,0 +1,41 @@
+GenericEntity : "{A68CCD91BEC95C7B}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_Containers_USSR_04.et" {
+ ID "5282DCB5DFC8538F"
+ {
+  GenericEntity {
+   ID "62F4A41DAC20435A"
+   components {
+    SCR_ResourceComponent "{5D247A59598D71AE}" {
+     m_aContainers {
+      SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+       m_fResourceValueMax 1500
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "62F4A41DAC20AB94"
+   components {
+    SCR_ResourceComponent "{5D247A59598D71AE}" {
+     m_aContainers {
+      SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+       m_fResourceValueMax 1500
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "62F4A41DAC20AB9A"
+   components {
+    SCR_ResourceComponent "{5D247A59598D71AE}" {
+     m_aContainers {
+      SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+       m_fResourceValueMax 1500
+      }
+     }
+    }
+   }
+  }
+ }
+}

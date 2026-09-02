@@ -60,39 +60,33 @@ $grp GenericEntity : "{1BAE4DF554AED35C}PrefabsEditable/EffectsModules/Mine/Effe
   components {
    SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
     m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
-     m_iMinProjectilesEachBarrage 28
-     m_iMaxProjectilesEachBarrage 30
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{5D22CCE8D39ECEDA}" {
+      m_fWidth 25
+      m_fLength 15
+     }
+     m_iMinProjectilesEachBarrage 12
+     m_iMaxProjectilesEachBarrage 24
     }
    }
   }
-  coords 5303.071 80.768 6387.174
-  angles 0.415 -62.368 -0.793
-  {
-   GenericEntity {
-    ID "616C96D8967A1736"
-    coords 0 1.289 0
-    angles 1.755 11.34 0.352
-   }
-  }
+  coords 5288.767 80.959 6399.429
+  angles 0.895 0.881 0.014
  }
  {
   components {
    SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
     m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
-     m_iMinProjectilesEachBarrage 28
-     m_iMaxProjectilesEachBarrage 30
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{5D22CCE8D39ECEDA}" {
+      m_fWidth 30
+      m_fLength 10
+     }
+     m_iMinProjectilesEachBarrage 12
+     m_iMaxProjectilesEachBarrage 26
     }
    }
   }
-  coords 5423.204 80.127 5733.477
-  angles 1.971 36.458 0.344
-  {
-   GenericEntity {
-    ID "616C96D8967A1736"
-    coords 0 1.289 0
-    angles 1.755 11.34 0.352
-   }
-  }
+  coords 5370.606 67.012 5483.396
+  angles 0.282 117.865 5.198
  }
  {
   components {
@@ -129,20 +123,16 @@ $grp GenericEntity : "{1BAE4DF554AED35C}PrefabsEditable/EffectsModules/Mine/Effe
   components {
    SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
     m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
-     m_iMinProjectilesEachBarrage 28
-     m_iMaxProjectilesEachBarrage 30
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{5D22CCE8D39ECEDA}" {
+      m_fWidth 9.5
+     }
+     m_iMinProjectilesEachBarrage 8
+     m_iMaxProjectilesEachBarrage 16
     }
    }
   }
-  coords 7571.476 152.935 4605.941
-  angles -6.702 5.135 -5.051
-  {
-   GenericEntity {
-    ID "616C96D8967A1736"
-    coords 0 1.289 0
-    angles 1.755 11.34 0.352
-   }
-  }
+  coords 7573.376 152.944 4607.058
+  angles -8.374 -28.957 -0.444
  }
  {
   components {
@@ -328,26 +318,6 @@ $grp GenericEntity : "{34EB1F16E01716A4}PrefabsEditable/EffectsModules/Mine/Effe
   }
   coords 7604.902 82.089 5381.26
   angles -11.497 61.43 10.108
- }
- {
-  components {
-   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
-    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
-    }
-   }
-  }
-  coords 7091.478 108.002 5871.271
-  angles -0.362 68.622 3.981
- }
- {
-  components {
-   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
-    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
-    }
-   }
-  }
-  coords 6898.426 118.232 5964.681
-  angles 2.458 54.735 8.068
  }
  {
   components {

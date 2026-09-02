@@ -5,8 +5,13 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
   {
    GenericEntity {
     ID "62388D8F13AD0811"
-    coords 0.5 0.002 0.001
-    angles 0.895 -0 -0.019
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eImportance HIGH
+     }
+    }
+    coords 33.188 1.555 -25.859
+    angles 0.895 0 -0.019
    }
    $grp GenericEntity : "{8576AB93B8D2708F}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign_HQC.et" {
     {
@@ -119,18 +124,20 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_eGroupType TEAM_MG_ELITE
+       m_eImportance HIGH
       }
      }
-     coords 10.139 -0.321 -29.448
-     angles -0.045 0.243 -2.683
+     coords -32.62 2.299 -38.553
+     angles 0.015 0.244 0.895
     }
     {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_eGroupType SQUAD_RIFLE
+       m_eImportance HIGH
       }
      }
-     coords -10.898 3.285 57.724
+     coords -8.373 2.911 70.835
      angles 0 2.079 0
     }
    }
@@ -140,15 +147,33 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
   coords 4302.107 1.125 9539.396
   angles 0 46.736 0
   {
+   GenericEntity {
+    ID "62388D8F13AD0811"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eImportance NORMAL
+     }
+    }
+    coords 0.5 0 0
+   }
    $grp GenericEntity : "{8576AB93B8D2708F}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign_HQC.et" {
     {
-     coords 26.9 0 -17.587
-     angles 0 25.305 0
+     coords 5.855 0 -8.986
+     angles 0 -2.209 0
     }
     {
-     coords 6.562 0 -9.056
-     angles 0 -1.841 0
+     coords 23.94 0 9.504
+     angles 0 -66.894 0
     }
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType FIRETEAM
+     }
+    }
+    coords 49.844 1.23 13.561
+    angles 0 -88.143 0
    }
   }
  }
@@ -221,8 +246,14 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
   {
    GenericEntity {
     ID "62388D8F13AD0811"
-    coords -23.561 -2.972 45.733
-    angles -4.819 0.83 -4.704
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+      m_eImportance HIGH
+     }
+    }
+    coords 8.464 0.135 -0.612
+    angles 0.851 0.637 -1.51
    }
    $grp GenericEntity : "{8576AB93B8D2708F}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign_HQC.et" {
     {
@@ -377,20 +408,24 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
     {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-       m_eGroupType TEAM_MG_ELITE
+       m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+       m_eGroupType FIRETEAM
+       m_eImportance HIGH
       }
      }
-     coords -30.855 -4.237 12.372
-     angles -2.133 -177.962 9.622
+     coords -34.625 -2.665 -22.493
+     angles 3.276 -177.689 2.893
     }
     {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-       m_eGroupType TEAM_AT
+       m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+       m_eGroupType FIRETEAM
+       m_eImportance HIGH
       }
      }
-     coords -14.682 -1.632 41.225
-     angles 3.43 85.161 -5.605
+     coords 62.48 -0.213 -9.894
+     angles 2.254 85.179 -0.865
     }
    }
   }
@@ -550,26 +585,108 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
     m_iRadius 80
    }
   }
-  coords 7888.125 256.625 3997.679
-  angles 0 -51.166 0
+  coords 8128.382 202.5 3894.62
+  angles 0 132.802 0
   {
    GenericEntity {
     ID "62388D8F13AD0811"
-    coords 1.935 0.02 -0.068
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+      m_eImportance NORMAL
+     }
+    }
+    coords -9.815 -0.094 3.814
    }
    SCR_CampaignSpawnPointGroup {
     ID "621EB97024DABAFF"
     coords 0 0 0
    }
+   GenericEntity : "{1804DADC1C7C9893}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_01_Campaign_HQC.et" {
+    coords -30.72 -0.157 -1.182
+    angles -0.247 -26.782 0.86
+    {
+     GenericEntity {
+      ID "5D1ED92956CA1680"
+      coords -0.771 0 -6.522
+     }
+     GenericEntity {
+      ID "5D1ED92956CA16B3"
+      coords -1.087 0 -3.346
+     }
+    }
+   }
    GenericEntity : "{8576AB93B8D2708F}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign_HQC.et" {
-    coords -8.346 0 3.247
-    angles 0 -0.981 0
+    coords -19.504 0.347 -0.443
+    angles -6.822 -17.433 -2.243
     {
      GenericEntity {
       ID "5D1ED92C4DD6AE2E"
-      coords -6.419 0.016 -0.809
+      coords -6.442 -0.05 -0.738
+      angles -7.812 -2.618 -1.379
+     }
+     GenericEntity {
+      ID "5D45393876460D01"
+      {
+       GenericEntity {
+        ID "5D453938619FC380"
+        coords 2.545 -0.41 -2.585
+        angles -6.286 91.955 -3.211
+       }
+       GenericEntity {
+        ID "5D453938619FC381"
+        coords -2.007 -0.052 0.223
+        angles 0 0 2.09
+       }
+       GenericEntity {
+        ID "5D453938619FC383"
+        coords 2.582 -0.392 0.543
+        angles -2.498 92.564 1.884
+       }
+      }
+     }
+     GenericEntity {
+      ID "5E330D6C348F7D49"
+      coords -2.678 -0.11 1.551
+     }
+     GenericEntity {
+      ID "5D1ED92C4DD6AE43"
+      coords -1.651 -0.229 1.575
+      angles 3.826 2.726 6.077
+     }
+     GenericEntity {
+      ID "5D1ED92C4DD6AF8F"
+      coords -6.156 -0.038 1.648
+     }
+     GenericEntity {
+      ID "5D1ED92C4DD6AFC6"
+      coords -6.879 -0.038 0.095
+     }
+     GenericEntity {
+      ID "5D1ED92C4DD6AFE6"
+      coords -6.528 -0.038 0.959
+     }
+     GenericEntity {
+      ID "5D1ED92C4DD6AFF8"
+      coords -6.146 -0.038 0.245
+     }
+     GenericEntity {
+      ID "5D1ED92C4DD6AE02"
+      coords -6.419 0.111 -1.917
+      angles -1.989 -88.229 7.68
      }
     }
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+      m_eGroupType FIRETEAM
+      m_eImportance NORMAL
+     }
+    }
+    coords 4.983 -0.112 7.218
+    angles -3.114 -72.287 1.759
    }
   }
  }
@@ -670,100 +787,6 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
   }
  }
  {
-  components {
-   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 80
-   }
-  }
-  coords 8483.521 153.355 3631.356
-  angles -1.254 -134.46 -1.277
-  {
-   SCR_CampaignSpawnPointGroup {
-    ID "621EB97024DABAFF"
-    coords 0.195 -0.06 0.372
-    angles -1.498 3.287 -0.925
-   }
-   GenericEntity : "{1804DADC1C7C9893}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_01_Campaign_HQC.et" {
-    coords -8.778 -0.156 8.255
-    angles 2.391 -108.945 1.194
-    {
-     GenericEntity {
-      ID "5D45393FCDDCFA0B"
-      {
-       GenericEntity {
-        ID "5D45393FFA2FEF00"
-        coords 0.663 -0.092 -1.334
-        angles 0 -2.34 0
-       }
-       GenericEntity {
-        ID "5D45393FFA2FEF0E"
-        coords 0.526 -0.299 0.025
-        angles -8.421 -8.098 5.575
-       }
-       GenericEntity {
-        ID "5D45393FFA2FEF0F"
-        coords 0.604 -0.53 1.43
-        angles -9.156 0.536 4.253
-       }
-       GenericEntity {
-        ID "5D45393FFA2FEF0B"
-        coords -2.357 -0.206 0.318
-        angles 4.157 -93.697 8.462
-        {
-         GenericEntity {
-          ID "5D30E783A28A7954"
-          coords 0.001 0 -0.001
-         }
-        }
-       }
-       GenericEntity {
-        ID "5D45393FFA2FEF02"
-        coords -2.29 -0.421 1.691
-        angles -3.517 90.541 -8.746
-        {
-         GenericEntity {
-          ID "5D30E783AAEB03FC"
-          coords 0 0 0.001
-         }
-        }
-       }
-      }
-     }
-     GenericEntity {
-      ID "5D1ED92956CA16A0"
-      coords -4.356 -0.137 -3.205
-      angles -3.379 -50.382 2.122
-     }
-     GenericEntity {
-      ID "5D1ED92956CA1650"
-      coords -3.688 -0.167 -2.582
-      angles -3.784 -0.001 0.015
-     }
-     GenericEntity {
-      ID "5D1ED92956CA1605"
-      coords 3.552 0.515 -6.044
-      angles 0.553 95.192 -6.272
-     }
-     GenericEntity {
-      ID "5D1ED92956CA1618"
-      coords 2.894 -0.165 -1.656
-      angles -4.468 -70.977 9.077
-     }
-     GenericEntity {
-      ID "5D1ED92956CA1680"
-      coords -0.793 0.516 -7.199
-      angles -5.799 -4.516 2.457
-     }
-     GenericEntity {
-      ID "5D1ED92956CA16B3"
-      coords -1.085 0.008 -3.495
-      angles -9.947 1.472 -5.223
-     }
-    }
-   }
-  }
- }
- {
   coords 5605.613 26.792 9860.969
   angles -0.048 -132.826 1.265
   {
@@ -819,53 +842,66 @@ $grp GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSou
   }
  }
  {
-  coords 9917.672 295.183 2576.912
-  angles -1.843 -17.112 -5.965
+  coords 9478.36 207.11 2958.781
+  angles 7.259 -157.281 1.105
   {
    GenericEntity {
     ID "62388D8F13AD0811"
-    coords 9.673 0.528 6.022
-    angles -2.025 -179.458 4.085
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+     }
+    }
+    coords 16.358 0.892 6.184
+    angles 4.073 -179.27 1.768
    }
    $grp GenericEntity : "{8576AB93B8D2708F}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign_HQC.et" {
     {
-     coords -0.105 0.244 -9.106
-     angles 6.906 -86.429 2.008
+     coords 22.858 1.157 6.299
+     angles -5.332 1.206 -3.343
     }
     {
-     coords -0.368 0.892 13.929
-     angles -9.743 -178.206 -1.887
+     coords 52.487 3.384 14.189
+     angles 14.062 172.646 -0.772
      {
       GenericEntity {
        ID "5D1ED92C4DD6AE43"
-       coords -1.769 0.201 1.532
-       angles 0 2.319 0
+       coords -1.78 -0.002 1.473
+       angles -0.534 2.303 1.696
       }
       GenericEntity {
        ID "5D1ED92C4DD6AF8F"
-       coords -6.15 0.56 1.647
+       coords -6.175 0.072 1.528
+       angles 0.449 15.217 -0.765
       }
       GenericEntity {
        ID "5D1ED92C4DD6AFC6"
-       coords -6.879 0.383 0.095
+       coords -6.896 0.053 -0.003
+       angles -1.691 -87.633 -0.534
       }
       GenericEntity {
        ID "5D1ED92C4DD6AFE6"
-       coords -6.523 0.502 0.958
+       coords -6.55 0.065 0.844
+       angles -0.627 -60.102 -0.628
       }
       GenericEntity {
        ID "5D1ED92C4DD6AFF8"
-       coords -6.147 0.383 0.245
+       coords -6.171 0.066 0.146
+       angles 0.062 -11.183 -0.885
       }
       GenericEntity {
        ID "5D1ED92C4DD6AE02"
-       coords -6.326 0.076 -1.831
-       angles 3.024 -88.291 -6.227
+       coords -6.311 0.044 -1.956
+       angles -1.431 -88.185 -1.358
       }
       GenericEntity {
        ID "5D1ED92C4DD6AE2E"
-       coords -6.363 0.196 -0.694
-       angles 5.872 -2.431 3.658
+       coords -6.354 0.062 -0.83
+       angles 0.859 -2.448 0.199
+      }
+      GenericEntity {
+       ID "5E330D6C348F7D49"
+       coords -2.677 0.046 1.551
       }
      }
     }

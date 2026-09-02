@@ -4,6 +4,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
    SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
      RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 1200
      }
     }
    }
@@ -13,22 +14,35 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
   {
    GenericEntity {
     ID "622086ACB9D1E3B2"
-    coords 30.134 0.685 -30.56
-    angles 0.297 -0.004 -0.845
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eImportance HIGH
+     }
+    }
+    coords 39.771 0.688 40.51
+    angles 0 -0.004 0
    }
    GenericEntity {
     ID "622086ACBB849B49"
-    coords -21.678 0.344 -16.17
-    angles 0 -0.841 0
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+      m_eImportance HIGH
+     }
+    }
+    coords -22.48 0.345 -11.742
+    angles 0 84.22 0
    }
    GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
       m_eGroupType SQUAD_RIFLE
+      m_eImportance HIGH
      }
     }
-    coords -4.326 0.516 28.049
-    angles -2.592 175.693 -0.697
+    coords -3.833 0.35 24.433
+    angles -2.824 175.692 0.167
    }
   }
  }
@@ -37,6 +51,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
    SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
      RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 1200
      }
     }
    }
@@ -46,11 +61,22 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
   {
    GenericEntity {
     ID "622086ACB9D1E3B2"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eImportance NORMAL
+     }
+    }
     coords 16.921 1.374 60.53
     angles 1.242 -0.759 -0.248
    }
    GenericEntity {
     ID "622086ACBB849B49"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+      m_eImportance NORMAL
+     }
+    }
     coords 21.067 0.06 -6.023
     angles 1.245 -0.005 -0.232
    }
@@ -62,7 +88,9 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
    GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
       m_eGroupType SQUAD_RIFLE
+      m_eImportance NORMAL
      }
     }
     coords 50.652 0.926 35.243
@@ -75,34 +103,57 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
    SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
      RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 1200
      }
     }
    }
   }
-  coords 4860.734 53.082 5855.748
-  angles 1.742 -177.047 0.986
+  coords 5157.361 57.549 5418.551
+  angles 3.662 -177.101 -1.603
   {
+   GenericEntity {
+    ID "622086ACB9D1E3B2"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eImportance NORMAL
+     }
+    }
+    coords -23.512 -0.049 16.834
+    angles -2.002 -0.153 4.377
+   }
+   GenericEntity {
+    ID "622086ACBB849B49"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+      m_eImportance NORMAL
+     }
+    }
+    coords 12.146 -0.877 3.038
+    angles 0.977 -0.03 -1.733
+   }
    SCR_CampaignSpawnPointGroup {
     ID "621EB97024DABAFF"
     coords -0.99 3.093 -3.516
     angles -2.743 -0.11 2.3
    }
    GenericEntity : "{8E49E48C2BD0BFE3}Prefabs/Compositions/Slotted/SlotFlatSmall/AmmoStorage_S_FIA_01.et" {
-    coords -18.563 -0.484 -5.463
-    angles 2.68 33.751 0.533
+    coords -19.307 0.176 -6.587
+    angles -0.488 33.722 0.532
    }
    GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
       m_eGroupType SQUAD_RIFLE
      }
     }
-    coords 20.524 -2.579 -47.869
-    angles 1.837 -89.611 -0.787
+    coords 4.665 -1.123 -29.889
+    angles 2.584 -98.264 -1.137
    }
    GenericEntity : "{AB1A97B1BAE8C395}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_01.et" {
-    coords -8.857 0.065 -10.477
-    angles -0.667 45.258 0.596
+    coords -8.861 -0.107 -10.488
+    angles -3.097 37.416 0.887
    }
   }
  }
@@ -111,6 +162,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
    SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
      RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 1200
      }
     }
    }
@@ -118,14 +170,43 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
   coords 6973.638 121.168 6067.882
   angles 0.586 -126.13 -3.747
   {
+   GenericEntity {
+    ID "622086ACB9D1E3B2"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eImportance NORMAL
+     }
+    }
+    coords -23.681 0.346 -2.885
+    angles -2.693 -0.036 0.857
+   }
+   GenericEntity {
+    ID "622086ACBB849B49"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+      m_eGroupType SQUAD_RIFLE
+      m_eImportance NORMAL
+     }
+    }
+    coords 12.245 0.309 3.02
+    angles -0.854 0.04 -2.677
+   }
    SCR_CampaignSpawnPointGroup {
     ID "621EB97024DABAFF"
     coords -2.388 0.188 -6.245
     angles -0.723 0.031 0.525
    }
    GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    coords -31.266 0.129 -2.447
-    angles -2.278 0.672 -1.658
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+      m_eGroupType FIRETEAM
+      m_eImportance NORMAL
+     }
+    }
+    coords -31.264 0.13 -2.447
+    angles -2.278 0.672 -1.659
    }
   }
  }
@@ -134,24 +215,77 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
    SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
      RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 1200
      }
     }
    }
   }
-  coords 5122.395 175.976 7026.46
-  angles 0.733 35.053 0.514
+  coords 5184.809 173.489 7103.396
+  angles -1.458 -155.376 0
   {
+   GenericEntity {
+    ID "622086ACB9D1E3B2"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eImportance NORMAL
+     }
+    }
+    coords 18.541 4.693 88.731
+    angles 1.83 -0.055 -0.816
+   }
+   GenericEntity {
+    ID "622086ACBB849B49"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+      m_eImportance NORMAL
+     }
+    }
+    coords -5.329 -0.535 2.526
+    angles -0.914 -0.036 0.881
+   }
    GenericEntity : "{8E49E48C2BD0BFE3}Prefabs/Compositions/Slotted/SlotFlatSmall/AmmoStorage_S_FIA_01.et" {
-    coords 15.457 -0.604 13.387
-    angles -0.55 -87.149 0.706
+    coords 10.419 1.981 40.913
+    angles 1.834 -71.246 -8.151
+    {
+     GenericEntity {
+      ID "5D1ED91AAC33FFF0"
+      coords 2.346 0.756 -1.179
+      angles -11.398 -0.698 3.527
+     }
+     GenericEntity {
+      ID "5D1ED91AAC33FEC9"
+      coords -2.703 0.201 -1.176
+      angles 1.668 -0.002 -0.055
+     }
+    }
    }
    GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    coords 29.156 -0.532 8.219
-    angles -1.857 128.76 -3.184
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+      m_eGroupType FIRETEAM
+      m_eImportance NORMAL
+     }
+    }
+    coords 24.172 0.982 17.295
+    angles 1.455 -3.555 -0.09
    }
    GenericEntity : "{AB1A97B1BAE8C395}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_01.et" {
-    coords 4.232 -1.187 47.918
-    angles -9.665 101.485 -7.604
+    coords 11.514 3.126 52.595
+    angles -12.846 -69.328 -4.776
+    {
+     GenericEntity {
+      ID "5D1ED92956CA1680"
+      coords -0.863 -0.026 -5.404
+      angles 0 -4.642 0
+     }
+     GenericEntity {
+      ID "5D1ED92956CA16B3"
+      coords -1.062 -0.052 -1.537
+      angles 1.652 0.794 0
+     }
+    }
    }
   }
  }
@@ -160,6 +294,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
    SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
      RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 1200
      }
     }
    }
@@ -188,6 +323,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
    SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
      RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 1200
      }
     }
    }
@@ -216,26 +352,44 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
    SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
      RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 1200
      }
     }
    }
   }
-  coords 1107.196 2.837 6085.601
-  angles -0.845 -93.152 0.943
+  coords 982.555 2.665 6026.659
+  angles 0.808 64.584 -0.384
   {
-   SCR_CampaignSpawnPointGroup {
-    ID "621EB97024DABAFF"
-    coords -0.022 0.031 0.26
-    angles 0.833 -0.005 -0.328
+   GenericEntity {
+    ID "622086ACB9D1E3B2"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eImportance NORMAL
+     }
+    }
+    coords 9.41 -0.356 26.978
+    angles -4.415 34.546 -0.709
+   }
+   GenericEntity {
+    ID "622086ACBB849B49"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eImportance NORMAL
+     }
+    }
+    coords 32.689 -1.529 101.045
+    angles 0.867 -140.22 0.222
    }
    GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
       m_eGroupType SQUAD_RIFLE
+      m_eImportance NORMAL
      }
     }
-    coords -53.405 0.009 68.24
-    angles -0.849 -85.379 -1.813
+    coords 98.258 3.996 53.774
+    angles -2.552 -85.528 -6.638
    }
   }
  }
@@ -244,7 +398,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
    SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
      RelayTransceiver "{621EB97024DABAB8}" {
-      "Transmitting Range" 2200
+      "Transmitting Range" 1200
      }
     }
    }
@@ -273,7 +427,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
    SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
      RelayTransceiver "{621EB97024DABAB8}" {
-      "Transmitting Range" 3000
+      "Transmitting Range" 1200
      }
     }
    }
@@ -281,6 +435,16 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
   coords 1439.836 36.285 11379.902
   angles -7.536 -116.349 -7.136
   {
+   GenericEntity {
+    ID "622086ACB9D1E3B2"
+    coords -23.672 2.437 17.46
+    angles 4.335 0.207 2.73
+   }
+   GenericEntity {
+    ID "622086ACBB849B49"
+    coords 12.285 -0.177 2.838
+    angles 0.388 0.005 0.779
+   }
    SCR_CampaignSpawnPointGroup {
     ID "621EB97024DABAFF"
     coords -0.022 0.031 0.26
@@ -292,8 +456,8 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
       m_eGroupType SQUAD_RIFLE
      }
     }
-    coords -20.398 -8.301 56.422
-    angles -10.863 -21.434 2.18
+    coords -18.632 5.81 54.541
+    angles 14.74 -23.135 -3.861
    }
   }
  }
@@ -302,6 +466,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
    SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
      RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 1200
      }
     }
    }
@@ -347,6 +512,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
    SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
      RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 1200
      }
     }
    }

@@ -11,8 +11,8 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 7575.989 166.844 4311.034
-  angles 0 -73.13 0
+  coords 7543.193 166.844 4296.605
+  angles 0 17.403 0
  }
  {
   components {
@@ -24,8 +24,8 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 7027.993 117.921 6009.485
-  angles -1.308 136.948 1.222
+  coords 7066.333 119.562 6050.301
+  angles -1.265 136.941 -0.043
  }
  {
   components {
@@ -248,6 +248,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angles 1.581 -151.996 0.84
  }
 }
+Vehicle S1203_transport_red1 : "{11A28C90DB40318D}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_red.et" {
+ coords 4997.269 2.234 3886.487
+ angles 0 -135.147 0
+}
 $grp Vehicle : "{16E32C3ABEAFC2C6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_transport.et" {
  Ural4320_FIA_transport1 {
   coords 7473.787 164.614 4338.686
@@ -258,37 +262,16 @@ $grp Vehicle : "{16E32C3ABEAFC2C6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA
   angles 2.137 12.598 -1.356
  }
 }
-$grp Vehicle : "{5B8446E5EA3372D7}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo_USSR_VAI.et" {
- UAZ452_cargo_USSR_VAI1 {
-  coords 5519.189 95.635 6086.564
-  angles -1.228 -59.046 0.307
- }
- UAZ452_cargo_USSR_VAI2 {
-  coords 3868.504 15.01 8482.79
-  angles 2.486 -174.089 2.055
- }
- UAZ452_cargo_USSR_VAI3 {
-  coords 4998.644 2.188 3863.531
-  angles 0 -129.047 0
- }
+Vehicle UAZ452_transport_CIV_grey1 : "{780FA841BFE4077F}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_CIV_grey.et" {
+ coords 7096.096 117.012 5987.448
+ angles 0.087 41.037 1.263
 }
-Vehicle UAZ452_ambulance_USSR_VAI1 : "{A0B58E7DDF51D486}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance_USSR_VAI.et" {
- coords 5292.813 61.638 5392.613
- angles 0.736 124.729 0.51
+Vehicle S105_darkred1 : "{8000A0F649FB4B0D}Prefabs/Vehicles/Wheeled/S105/S105_darkred.et" {
+ coords 3826.352 12.121 8458.419
 }
-$grp Vehicle : "{BDFB2377B6B4ABBB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_PTS.et" {
- UAZ469_covered_CIV_PTS1 {
-  coords 7021.009 117.593 6000.975
-  angles -1.292 135.587 2.517
- }
- UAZ469_covered_CIV_PTS2 {
-  coords 7455.153 137.03 4750.065
-  angles 0.555 -128.291 0.703
- }
- UAZ469_covered_CIV_PTS3 {
-  coords 2969.785 77.602 6494.128
-  angles 1.199 -79.762 -1.602
- }
+Vehicle UAZ469_covered_CIV_PTS3 : "{BDFB2377B6B4ABBB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_PTS.et" {
+ coords 2969.785 77.602 6494.128
+ angles 1.199 -79.762 -1.602
 }
 $grp Vehicle : "{C8B16ABCA57679A2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_blue.et" {
  UAZ469_covered_CIV_blue1 {
@@ -298,16 +281,6 @@ $grp Vehicle : "{C8B16ABCA57679A2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered
  UAZ469_covered_CIV_blue2 {
   coords 5128.427 176.299 7061.739
   angles 1.023 -145.16 -1.469
- }
-}
-$grp Vehicle : "{D7C51A961BF675B2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_brown.et" {
- UAZ469_covered_CIV_brown1 {
-  coords 5775.652 212.501 7011.741
-  angles -4.637 -83.664 -6.767
- }
- UAZ469_covered_CIV_brown2 {
-  coords 4500.626 13.491 9460.153
-  angles -4.471 -90.124 -1.775
  }
 }
 $grp Vehicle : "{F7E9AA0C813EABDA}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA.et" {

@@ -4,13 +4,13 @@ $grp StaticModelEntity : "{7E2380494811A5FB}Prefabs/Structures/Infrastructure/To
    ScriptedRadioComponent "{5CB8819ABF076BA3}" {
     Transceivers {
      RelayTransceiver "{5CB8819ABDEE5A44}" {
-      "Transmitting Range" 4000
+      "Transmitting Range" 3000
      }
     }
    }
   }
-  coords 4382.269 1.207 11322.396
-  angles -0.56 170.726 0.299
+  coords 4370.107 6.424 11573.985
+  angles -0.575 173.78 0.269
   {
    GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
     components {
@@ -28,6 +28,15 @@ $grp StaticModelEntity : "{7E2380494811A5FB}Prefabs/Structures/Infrastructure/To
   }
  }
  AntenaSul {
+  components {
+   ScriptedRadioComponent "{5CB8819ABF076BA3}" {
+    Transceivers {
+     RelayTransceiver "{5CB8819ABDEE5A44}" {
+      "Transmitting Range" 3000
+     }
+    }
+   }
+  }
   coords 2278.225 17.028 4686.232
   angles 0.644 86.148 0.184
   {

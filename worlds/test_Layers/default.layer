@@ -1,0 +1,24 @@
+GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+ coords 138.294 1 228.102
+ {
+  GenericEntity {
+   ID "62EACD0CC8BFF749"
+   components {
+    SCR_ResourceComponent "{5E3298BE225F0743}" {
+     m_eDebugVisualizationFlags 5
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{EB63BCC0AA844B17}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SupplyCache_S_USSR_01.et" {
+ coords 139.051 1 240.544
+ {
+  GenericEntity {
+   ID "62EACD0CC8BFE73D"
+  }
+  GenericEntity {
+   ID "62EACD0CC8BFF749"
+  }
+ }
+}
